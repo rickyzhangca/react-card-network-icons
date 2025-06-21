@@ -1,0 +1,32 @@
+{
+  "name": "react-card-network-icons",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "license": "MIT",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf .turbo node_modules dist"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "tsup": "^8.5.0",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "react": "^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
