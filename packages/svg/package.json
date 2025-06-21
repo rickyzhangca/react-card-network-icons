@@ -35,5 +35,33 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "amex",
+    "brands",
+    "card",
+    "card-network",
+    "card-network-icons",
+    "components",
+    "credit",
+    "credit-card",
+    "credit-card-icons",
+    "credit-card-logos",
+    "discover",
+    "icon",
+    "icons",
+    "logos",
+    "mastercard",
+    "payment",
+    "payment-card",
+    "payment-card-icons",
+    "paypal",
+    "react",
+    "react-card-icons",
+    "react-component",
+    "svg",
+    "typescript",
+    "unionpay",
+    "visa"
+  ]
 }
