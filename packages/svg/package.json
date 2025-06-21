@@ -1,6 +1,13 @@
 {
   "name": "react-card-network-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "React svg components for the common payment card network logos.",
+  "author": "Ricky Zhang <haoyuzhangca@outlook.com>",
+  "homepage": "https://github.com/rickyzhangca/react-card-network-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickyzhangca/react-card-network-icons"
+  },
   "sideEffects": false,
   "license": "MIT",
   "types": "./src/index.ts",
