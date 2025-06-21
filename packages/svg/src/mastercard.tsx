@@ -1,7 +1,12 @@
-import { CardNetworkIconProps } from './props';
+import { CardNetworkIcon, CardNetworkIconProps } from './types';
 import { useComputedSize } from './use-computed-size';
 
-export const Mastercard = ({ referenceHeight, width: propWidth, height: propHeight, ...rest }: CardNetworkIconProps) => {
+export const Mastercard = ({
+  referenceHeight,
+  width: propWidth,
+  height: propHeight,
+  ...rest
+}: CardNetworkIconProps): CardNetworkIcon => {
   const { width: computedWidth, height: computedHeight } = useComputedSize({
     referenceHeight,
     propWidth,

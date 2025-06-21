@@ -1,4 +1,4 @@
-import { CardNetworkIconProps } from './props';
+import { CardNetworkIcon, CardNetworkIconProps } from './types';
 import { useComputedSize } from './use-computed-size';
 
 const SCALING_FACTOR = 0.5;
@@ -8,7 +8,7 @@ export const Discover = ({
   width: propWidth,
   height: propHeight,
   ...rest
-}: CardNetworkIconProps) => {
+}: CardNetworkIconProps): CardNetworkIcon => {
   const { width: computedWidth, height: computedHeight } = useComputedSize({
     referenceHeight,
     propWidth,

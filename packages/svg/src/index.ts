@@ -6,13 +6,4 @@ export { Mastercard } from './mastercard';
 export { UnionPay } from './union-pay';
 export { Visa } from './visa';
 
-export type { CardNetworkIconProps } from './props';
-
-export type CardNetworkIcon =
-  | 'amex'
-  | 'diners'
-  | 'discover'
-  | 'jcb'
-  | 'mastercard'
-  | 'union-pay'
-  | 'visa';
+export * from './types';
